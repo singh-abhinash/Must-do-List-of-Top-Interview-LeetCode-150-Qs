@@ -5,7 +5,7 @@ package arrayAndString.productAnArrayExceptSelf;
 class BruteForceApproach {
   public int[] productExceptSelf(int[] nums) {
       int n = nums.length;
-      int productArray[] = new int[n];
+      int[] productArray = new int[n];
       
       for(int i = 0; i < n; i++) {
           int product = 1;

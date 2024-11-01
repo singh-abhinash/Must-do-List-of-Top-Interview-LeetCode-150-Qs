@@ -19,7 +19,7 @@ class OptimizedApproach1 {
           suffixProduct[i] = suffixProduct[i+1] * nums[i+1];
       }
 
-      int productArray[] = new int[n];
+      int[] productArray = new int[n];
       for (int i = 0; i < n; i++) {
           productArray[i] = suffixProduct[i] * prefixProduct[i];
       }

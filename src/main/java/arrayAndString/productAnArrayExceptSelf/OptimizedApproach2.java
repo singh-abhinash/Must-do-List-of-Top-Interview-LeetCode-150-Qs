@@ -6,7 +6,7 @@ package arrayAndString.productAnArrayExceptSelf;
 class OptimizedApproach2 {
   public int[] productExceptSelf(int[] nums) {
       int n = nums.length;
-      int productArray[] = new int[n];
+      int[] productArray = new int[n];
       int product = 1;
       
       for (int i = 0; i < n; i++) {
