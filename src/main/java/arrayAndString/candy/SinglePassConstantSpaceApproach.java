@@ -1,6 +1,7 @@
 package arrayAndString.candy;
 
 // Single pass approach or Slope Approach - O(n) time and O(1) space
+// Exlanation - https://www.youtube.com/watch?v=YUT13Koh5Jg
 
 public class SinglePassConstantSpaceApproach {
 	public int candy(int[] ratings) {
