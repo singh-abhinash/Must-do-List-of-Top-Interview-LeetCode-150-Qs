@@ -2,6 +2,8 @@ package hashmap.containsDuplicateII;
 
 import java.util.HashMap;
 
+
+// Optimized Approach suing Hashmap - O(n) time and O(n) space
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         // stores number and its latest index
