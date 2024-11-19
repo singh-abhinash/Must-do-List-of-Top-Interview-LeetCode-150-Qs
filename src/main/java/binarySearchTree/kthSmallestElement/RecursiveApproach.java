@@ -11,6 +11,8 @@ class TreeNode {
     }
 }
 
+//Time complexity - O(n), where n is the total number of nodes
+//Recursive Stack Space complexity - O(h), where h is the height of the binary tree
 public class RecursiveApproach {
 	private int count = 0; // Tracks how many nodes have been visited
     private int result = 0; // Stores the result once we reach the k-th smallest

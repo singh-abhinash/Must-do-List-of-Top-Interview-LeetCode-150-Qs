@@ -2,6 +2,8 @@ package binarySearchTree.kthSmallestElement;
 
 import java.util.Stack;
 
+//Time complexity - O(n), where n is the total number of nodes
+//Stack Space complexity - O(h), where h is the height of the binary tree
 public class IterativeApproach {
 	public int kthSmallest(TreeNode root, int k) {
         Stack<TreeNode> stack = new Stack<>();
