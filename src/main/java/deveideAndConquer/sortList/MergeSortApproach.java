@@ -12,7 +12,7 @@ public class MergeSortApproach {
 	public ListNode sortList(ListNode head) {
         // Base case: if the list is empty or has one node, it is already sorted.
         if (head == null || head.next == null) {
-            return head;
+            return head; 
         }
 
         // Split the list into two halves.
